@@ -17,8 +17,6 @@ import nets
 from datetime import datetime
 from time import sleep
 from tqdm import tqdm
-from test import SE_simpleCNN
-from test_CBMA import CBMA_SimpleCNN
 
 
 # 数据增强
