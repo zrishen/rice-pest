@@ -1,7 +1,14 @@
+# 深度学习框架（原实验基于 PyTorch 1.x，Python 3.8 ~ 3.10）
 torch
-tqdm
 torchvision
-sklearn
-datetime
-time
-os
+
+# 训练与评估
+numpy
+scikit-learn
+tqdm
+matplotlib
+
+# 部署与可视化
+opencv-python
+scikit-image
+Pillow

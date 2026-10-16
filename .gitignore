@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 数据集 ----
+# 原始数据集与划分后的 10 折数据不入库，见 README「数据集准备」
+dataset/
+data/
+
+# ---- 训练中间产物 ----
+# 仓库中保留了实验最终结果（rice/result/class_9 与 deploy/pth.tar），
+# 如需精简仓库体积，可取消下面两行注释
+# rice/result/
+# deploy/heatmaps/
